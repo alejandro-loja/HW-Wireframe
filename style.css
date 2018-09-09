@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
+
 body{
     padding: 0;
     margin: 0;
@@ -16,7 +24,7 @@ header, nav, section, aside, footer{
     background-color: #ebebeb;
 }
 
-header, nav{
+header, nav, footer{
     text-align: center;
     border: 5px solid #777;
     height: 80px;
@@ -27,15 +35,19 @@ article{
     background: #777;
 }
 
-h1, p{
+p{
     color: #777;
     background: #ebebeb;
+    text-align: center;
+}
+#left {
+    float: left;
+    width: 60%;
 }
 
-.str{
-    font-weight: bold;
-}
+ #right {
+     float: right;
+     width: 38%;
+ }
 
-section{
-    width: 495px;
-}
+
