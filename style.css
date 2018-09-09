@@ -31,42 +31,69 @@ header, nav, footer{
     padding: 20px;
 }
 
+article {
+    background: #777;
+}
+
 #inside {
     color: #ebebeb;
     background: #777;
     position: relative;
-    height: 100px;
+    height: 200px;
+    padding: 10px;
 }
 
 #headp {
-    position: absolute;
+    text-align: center;
+    color: #777;
+}
+
+#headp1 {
+    position: relative;
+    top: 10px;
+    background: #ebebeb;
+    margin: 0 10px; 
+    padding: 14px;
+}
+
+#headp2 {
+    position: relative;
+    top: 20px;
+    background: #ebebeb;
+    margin: 0 10px;
+    padding: 14px;
+}
+
+h1 {
+    font-size: 18px;
 }
 h2{
     color: #777;
-    background: #ebebeb;
     text-align: center;
     font-size: 18px;
     font-weight: normal;
 }
 
+.color-change {
+    color: #ebebeb;
+}
 section {
     width: 495px;
     padding: 20px 10px;
+    height: 290px;
 }
 .leftright {
-    margin: 0;
 }
 
 #left {
     float: left;
-    width: 58%;
+    width: 53.5%;
+    margin-right: 0px;
 }
 
  #right {
      float: right;
-     width: 30%;
+     width: 42%;
      height: 290px;
      padding: 20px;
- }
-
-
+     margin-left: 0px;
